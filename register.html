@@ -37,37 +37,37 @@
         </nav>
 
     </header>
+
+
     <main>
         <form action="./home.html" method="get">
 
-            <label for="nombre">Ingrese su nombre: <input type="text" name="nombre"></label>
+            <label for="nombre">Ingrese su nombre: <input type="text" name="nombre" id="nombre"></label>
             <br>
-            <label for="apellido">Ingrese su apellido: <input type="text" name="apellido"></label>
+            <label for="apellido">Ingrese su apellido: <input type="text" name="apellido" id="apellido"></label>
             <br>
-            <label for="email">Ingrese un email: <input type="text" name="email"></label>
-            <br>
-            <label for="password">ingrese una clave: <input type="text" name="password" id="password"></label>
+            <label for="email">Ingrese un email: <input type="text" name="email" id="email"></label>
             <br>
             <span>Elegir un perfil.</span>
 
-            <select name="" id="">
+            <select name="perfiles" id="perfiles">
 
                 <option value="elegir perfil" selected>elegir perfil.</option>
                 <option value="Vendedorr">Vendedor</option>
-                <option value="compradorr">Vendedor</option>
+                <option value="comprador">Vendedor</option>
             </select>
             <br>
             <label for="date">
                 <span>Fecha de nacimiento:</span>
                 <strong><abbr title="required"></abbr></strong>
             </label>
-            <input type="date" name="date" />
+            <input type="date" name="date"  id="date">
             <br>
-            <label for="direccion">ingrese su direccion: <input type="address" name="direccion" id=""></label>
+            <label for="direccion">ingrese su direccion: <input type="text" name="address" id="direccion"></label>
             <br>
             <span>Categoria de interes.</span>
 
-            <select name="" id="">
+            <select name="intereses" id="intereses">
 
                 <option value="elegir interes" selected>elegir interes.</option>
                 <option value="electro">electro</option>
@@ -78,12 +78,12 @@
             </select>
             <br>
             <label for="images">
-                agregar foto de perfil: <input type="file" name="images" id="">
+                agregar foto de perfil: <input type="file" name="images" id="images">
             </label>
             <br>
-            <label for="password">ingrese una clave: <input type="password" name="password"></label>
+            <label for="password">ingrese una clave: <input type="password" name="password" id="password"></label>
             <br>
-            <label for="password">confirmar clave: <input type="password" name="password" id=""></label>
+            <label for="password_confirm">confirmar clave: <input type="password" name="password_confirm" id="password_confirm"></label>
             <br>
             <button type="submit">Registrarse</button>
             <button type="reset">limpiar</button>
