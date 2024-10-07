@@ -4,21 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb31087560.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/register.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="logo">
             <img src="./images/logo-mercado-liebre.svg" alt="logo">
         </div>
-        <div>
+
+        <div class="logo-search">
             <form action="#">
-                <label for="search"><input type="search" id="search"></label>
+                <label for="search"><input type="search" id="search" class="search"></label>
                 <button type="submit">Buscar</button>
             </form>
         </div>
-        <span>Comprá en cuotas y sin tarjeta de crédito</span>
+
+        <div class="header-icons">
+            <p><i class="fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de credito</p>
+        </div>
+
         <nav>
             <ul>
                 <li><a href="">Ofertas</a></li>
@@ -30,14 +40,17 @@
 
         <nav>
             <ul>
-                <li><a href="./register.html">Crea tu cuenta</a></li>
-                <li><a href="./login.html">Ingresá</a></li>
-                <li><a href="">Mis compras</a></li>
+                <li><a href="./register.html">Crea tu cuenta <i class="fas fa-address-card"></i></a></li>
+                <li><a href="./login.html">Ingresá <i class="fas fa-sign-out-alt"></i></a></li>
+                <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
 
-    </header>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
 
+    </header>
 
     <main>
         <form action="./home.html" method="get">
@@ -61,7 +74,7 @@
                 <span>Fecha de nacimiento:</span>
                 <strong><abbr title="required"></abbr></strong>
             </label>
-            <input type="date" name="date"  id="date">
+            <input type="date" name="date" id="date">
             <br>
             <label for="direccion">ingrese su direccion: <input type="text" name="address" id="direccion"></label>
             <br>
@@ -83,16 +96,18 @@
             <br>
             <label for="password">ingrese una clave: <input type="password" name="password" id="password"></label>
             <br>
-            <label for="password_confirm">confirmar clave: <input type="password" name="password_confirm" id="password_confirm"></label>
+            <label for="password_confirm">confirmar clave: <input type="password" name="password_confirm"
+                    id="password_confirm"></label>
             <br>
-            <button type="submit">Registrarse</button>
-            <button type="reset">limpiar</button>
+            <button type="submit" class="boton-registrarse">Registrarse</button>
+            <button type="reset" class="boton-limpiar">limpiar</button>
 
         </form>
     </main>
 
     <footer>
         <div>
+            <i class="fa-solid fa-credit-card"></i>
             <h3>Pagá con tarjeta o en efectivo</h3>
             <br>
             <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es
@@ -101,6 +116,7 @@
         </div>
 
         <div>
+            <i class="fa-solid fa-gift"></i>
             <h3>Envío gratis desde $2.500</h3>
             <br>
             <p>Solo por estar registrado en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de
@@ -109,7 +125,7 @@
         </div>
 
         <div>
-
+            <i class="fa-solid fa-user-shield"></i>
             <h3>Seguridad, de principio a fin</h3>
             <br>
             <p>¿No te gusta? ¡Devuélvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre

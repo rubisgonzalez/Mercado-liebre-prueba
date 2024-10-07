@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+main form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
+
+main form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+main input, select {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+ 
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.boton-registrarse{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0044AA;
+  color: white;
+  margin-right: 10px;
+}
+
+.boton-limpiar {
+  background-color: #6c757d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+}
+
