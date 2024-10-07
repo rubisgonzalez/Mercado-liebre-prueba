@@ -3,17 +3,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-
 }
+
 main form {
   text-align: center;
+  background-color: #ebebeb;;
 }
-main form button{
-  background-color: #1259c3;
-  color: white;
+
+main form button {
+  padding: 10px 20px;
+  border: none;
   border-radius: 5px;
-  padding: 4px 118px;
-  font-size: 16px;
+  background-color: #0044AA;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
 }
 input {
   width: 80%;
