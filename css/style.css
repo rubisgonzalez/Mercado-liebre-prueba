@@ -8,3 +8,111 @@
 
 
 
+
+@media (min-width: 768px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav2 {
+        display: flex-end;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+
+    }
+
+    nav ul li {
+        list-style: none;
+
+    }
+
+    nav ul li a {
+        color: #000000;
+        margin: 5px;
+        text-decoration: none;
+    }
+
+    .header-icons {
+        text-align: center;
+    }
+
+    .productos article h4 {
+        display: flex;
+        font-size: 100%;
+        font-weight: bold;
+        overflow: auto;
+
+    }
+
+    .burger-menu {
+        display: none
+    }
+}
+
+@media (max-width: 769px) {
+    .productos article h4 {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+        justify-content: center;
+
+    }
+
+}
+
+@media (max-width: 769px) {
+    .productos article h4 {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+        justify-content: center;
+
+    }
+
+}
+
+.img-basadoentuultimavisita img {
+    display: flex;
+    width: 100vw;
+
+}
+
+/* Estilos para la sección de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.productos article {
+    background-color: #fff;
+    border: 1px solid #656262;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(25% - 20px);
+}
+
+
+.productos article a img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productos article p {
+    font-size: 100%;
+    font-weight: bold;
+    overflow: auto;
+}
+

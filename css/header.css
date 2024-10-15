@@ -1,5 +1,6 @@
 header {
   background-color: #EAC926;
+  color: #000000;
   padding: 20px;
 
 }
@@ -11,8 +12,11 @@ header form {
 
 .header-icons {
   text-align: center;
-  padding: 2px;
-  font-size: 14px;
+
+}
+.header-icons i {
+  margin-right: 10px;
+  font-size: 18px;
 }
 
 .logo {
@@ -35,9 +39,13 @@ header form {
   margin-top: 4px;
 
 }
+nav {
+  display: none;
+}
 
-li{
-  list-style-type: none;
+
+nav ul li {
+  list-style: none;
 }
 
 .search{
@@ -70,10 +78,17 @@ li{
   padding: 5px 10px;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
-}
+} 
 
+.burger-menu {
+  display: flex;
+  justify-content: center;
+
+}
 .burger-menu i {
+
   text-align: center;
+  justify-content: space-between;
   background-color: #0044AA;
   border-radius: 5px;
   color: #FFF;
