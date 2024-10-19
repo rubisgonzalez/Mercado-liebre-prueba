@@ -80,18 +80,34 @@ article i {
     bottom: 40px;
     left: 80%;
     font-size: 110%;
-    ;
     color: green;
     border: 1px solid #39b54a;
     border-radius: 50%;
     padding: 10px;
-
+    transition: transform 0.3s ease
 }
+
+.precio_y_descuento:hover i {
+    transform: rotate(-90deg);
+}
+
 
 .product-descuento {
     border: 2px solid #ebebeb
 }
 
+.productos article .descripcion {
+    display: none;
+    /*display: flex;*/
+    font-size: 80%;
+    margin-top: 5px;
+}
+
+
+.productos article:hover .descripcion {
+    display: block;
+
+}
 
 
 
@@ -139,12 +155,7 @@ article i {
         transform: translateY(-5px);
     }
 
-    article h4 {
-        display: flex;
-        font-size: 80%;
-        margin-top: 5px;
 
-    }
 
     .burger-menu {
         display: none
@@ -188,11 +199,6 @@ article i {
         flex-basis: 100%;
     }
 
-    article h4 {
-        display: none;
-
-    }
-
     article i {
         position: absolute;
         bottom: 25px;
@@ -220,5 +226,6 @@ article i {
         box-shadow: 0px 0px 15px rgb(100, 100, 100);
         transform: translateY(-5px);
     }
+
 
 }

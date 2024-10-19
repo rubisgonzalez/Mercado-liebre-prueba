@@ -7,6 +7,8 @@ footer {
   border: 1px solid #ccc;
 }
 
+
+
 footer div {
   text-align: center;
   margin-top: 2px;
@@ -22,8 +24,25 @@ footer p {
   margin-top: 10px;
 }
 
-footer div i {
+.container-footer div i {
   font-size: 2em;
   margin: 10px;
   color: #03264C;
+  transition: color 0.3s ease;
+
+}
+
+.container-footer div:hover i {
+  color: #3300ff;
+}
+
+@media (min-width: 1024px) {
+
+  .container-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 04%;
+
+  }
+
 }
